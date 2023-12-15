@@ -7,7 +7,7 @@ const {
 const {
     JWT,
     AUTH
-} = require('../../../middleware');
+} = require('../../middleware');
 
 module.exports = dependencies =>{
     const {

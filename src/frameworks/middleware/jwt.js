@@ -3,7 +3,7 @@ const { TokenExpiredError } = jwt;
 
 const {
     ResponseError
-} = require('../frameworks/common');
+} = require('../../frameworks/common');
 
 module.exports = {
     verifyToken: (req, res,next) => {

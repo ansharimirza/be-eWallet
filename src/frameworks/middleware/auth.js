@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const {
     ResponseError
-} = require('../frameworks/common');
+} = require('../../frameworks/common');
 
 module.exports = {
     verifyBasicAuth: (req, res,next) => {
